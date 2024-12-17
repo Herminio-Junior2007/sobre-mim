@@ -1,0 +1,525 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    line-height: 1.6;
+
+    color: #333;
+
+  }
+
+
+
+  body {
+
+    background-color: #062756;
+
+    color: whitesmoke;
+
+  }
+
+
+
+header {
+
+  position: relative;
+
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: white;
+
+  background: url('../assets/images/background.jpg') no-repeat center center/cover;
+
+  text-align: center;
+
+}
+
+
+
+.header-container {
+
+  position: relative;
+
+  z-index: 2;
+
+  padding: 20px;
+
+  backdrop-filter: blur(5px);
+
+}
+
+
+
+header::before {
+
+  content: '';
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  z-index: 1;
+
+}
+
+
+
+header h1 {
+
+  font-size: 2.5rem;
+
+  margin: 0;
+
+}
+
+
+
+header h1 span {
+
+  color: rgb(48, 243, 162); 
+
+}
+
+
+
+header p {
+
+  font-size: 1.2rem;
+
+  margin: 15px 0;
+
+}
+
+
+
+.btn-primary {
+
+  display: inline-block;
+
+  background: #4CAF50;
+
+  color: white;
+
+  padding: 15px 30px;
+
+  text-decoration: none;
+
+  border-radius: 25px;
+
+  font-size: 1rem;
+
+  font-weight: bold;
+
+  transition: background 0.3s ease;
+
+}
+
+
+
+.btn-primary:hover {
+
+  background: #45A049;
+
+}
+
+  nav ul {
+
+    list-style: none;
+
+    background: #333;
+
+    padding: 10px 0;
+
+    text-align: center;
+
+  }
+
+  
+
+  nav ul li {
+
+    display: inline;
+
+    margin: 0 15px;
+
+  }
+
+  
+
+  nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+  }
+
+  
+
+  .container {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 20px 0;
+
+  }
+
+  
+
+  section {
+
+    padding: 40px 0;
+
+    text-decoration: black;
+
+  }
+
+  .skill {
+
+    margin-bottom: 20px;
+    
+  }
+
+  
+
+  .skill h3 {
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+  }
+
+  
+
+  .progress-bar {
+
+    background: #ddd;
+
+    border-radius: 5px;
+
+    overflow: hidden;
+
+    height: 20px;
+
+    position: relative;
+
+  }
+
+  
+
+  .progress {
+
+    background: rgb(3, 118, 233);
+
+    height: 100%;
+
+    line-height: 20px;
+
+    color: #fff;
+
+    text-align: right;
+
+    padding-right: 10px;
+
+    font-size: 14px;
+
+    border-radius: 5px 0 0 5px;
+
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  }
+
+  
+
+  
+
+  .project-grid {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    text-decoration: black;
+
+  }
+
+  
+
+  .project-card {
+
+    background: black;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    width: calc(50% - 10px);
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+
+    text-decoration-color: black;
+
+  }
+
+  
+
+  .project-card img {
+
+    max-width: 100%;
+
+    border-radius: 8px;
+
+    text-decoration: black;
+
+  }
+
+  
+
+  .btn-primary {
+
+    background: #062756;
+
+    color: black;
+
+    padding: 10px 20px;
+
+    text-decoration: black;
+
+    border-radius: 5px;
+
+  }
+
+  
+
+  .btn-primary:hover {
+
+    background: whitesmoke;
+
+  }
+
+  
+
+  .btn-secondary {
+
+    background: #333;
+
+    color: black;
+
+    padding: 10px 20px;
+
+    text-decoration: black;
+
+    border-radius: 5px;
+
+  }
+
+  
+
+  .btn-secondary:hover {
+
+    background: #555;
+
+  }
+
+
+
+#contato {
+
+  background: #062756;
+
+  padding: 50px 0;
+
+}
+
+
+
+#contato h2 {
+
+  text-align: center;
+
+  font-size: 2rem;
+
+  margin-bottom: 20px;
+
+  color: white;
+
+}
+
+
+
+#contato p {
+
+  text-align: center;
+
+  margin-bottom: 30px;
+
+  color: white;
+
+}
+
+
+
+.contact-form {
+
+  max-width: 600px;
+
+  margin: auto;
+
+  background: black;
+
+  padding: 20px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.contact-form .form-group {
+
+  margin-bottom: 15px;
+
+}
+
+
+
+.contact-form label {
+
+  display: block;
+
+  font-weight: bold;
+
+  margin-bottom: 5px;
+
+  color: gray;
+
+}
+
+
+
+.contact-form input,
+
+.contact-form textarea {
+
+  width: 100%;
+
+  padding: 10px;
+
+  border: 1px solid gray;
+
+  border-radius: 5px;
+
+  font-size: 1rem;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.contact-form button {
+
+  display: block;
+
+  width: 100%;
+
+  background: white;
+
+  color: grey;
+
+  padding: 10px;
+
+  font-size: 1rem;
+
+  font-weight: bold;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+
+
+.contact-form button:hover {
+
+  background: #062756;
+
+}
+
+
+
+.social-icons {
+
+  text-align: center;
+
+  margin-top: 20px;
+
+}
+
+
+
+.social-icons a {
+
+  display: inline-block;
+
+  margin: 0 10px;
+
+  transition: transform 0.3s;
+
+}
+
+
+
+.social-icons a:hover {
+
+  transform: scale(1.1);
+
+}
+
+
+
+.social-icons img {
+
+  width: 30px;
+
+  height: 30px;
+
+}
+
+
+
+  
